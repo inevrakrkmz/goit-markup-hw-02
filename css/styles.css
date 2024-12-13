@@ -74,7 +74,7 @@ body {
     color: #4D5AE5;
 }
 
-a.logo {
+.logo-header {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     line-height: 1.17; 
@@ -83,8 +83,8 @@ a.logo {
     color: #4d5ae5;
 }
 
-a.logo span.purple {
-    color: #2e2f42;
+.studioblack {
+    color: #2E2F42;
 }
 
 
@@ -117,13 +117,14 @@ ul {
 }
 .section1 {
     background-color: #2E2F42;
-    text-align: center;
 }
 
 .section1 h1 {
     color: white;
     font-weight: 700;
     font-size: 56px;
+    text-align: center;
+
 }
 .team {
     background-color: #F4F4FD;
@@ -145,5 +146,4 @@ ul {
 .footer {
     background-color: #2E2F42;
     color: white;
-    text-align: center;
 }
