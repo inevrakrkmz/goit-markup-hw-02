@@ -1,25 +1,102 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #2e2f42;
+}
+
+/* Navigation */
+.navigation {
+    margin-top: 20px;
+}
+
+.logo {
+    font-size: 18px;
+    line-height: 1.17;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logo .purple {
+    color: #2e2f42;
+}
+
+/* Navigation Listesi */
+.navigation_list {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.navigation_item {
+    margin: 5px 0;
+}
+
+.navigation_item a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #2e2f42;
+    transition: color 0.3s ease;
+}
+
+.navigation_item a:hover,
+.navigation_item a:focus {
+    color: #404bbf;
+}
+
+/* İletişim Bilgileri */
+.contact_info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.contact_info a {
+    text-decoration: none;
+    color: #2e2f42;
+}
+
+.contact_info a:hover {
+    color: #404bbf;
+}
+
+
+
+
+
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF; 
    
 }
-.logo {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 21px;
-    text-decoration: none;
-}
-
 .purple {
     color: #4D5AE5;
 }
 
-a {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
+a.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
+
+a.logo span.purple {
+    color: #2e2f42;
+}
+
+
 .itemtitle {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
