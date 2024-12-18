@@ -15,20 +15,67 @@ a.logo {
 .logo span { 
     color:#2e2f42; }
 
-.nav-studio {
+.nav-bar {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42 ;
 }
-.nav-studio :hover {
+.nav-bar:hover {
     color:#404bbf  ;
 }
-.nav-studio :focus {
+.nav-bar:focus {
     color:#404bbf ;
-    
-
 }
+.adress-bar {
+    font-style: normal
+}
+.adress-item{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+
+.adress-item:hover {
+    color: #404bbf;}
+
+.adress-item:focus {
+    color: #404bbf;
+}
+
+.first-section{
+     background-color: #2e2f42;
+     }
+
+.fs-h1 {
+    font: size 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02;
+    color: #FFFFFF;
+}
+.fs-button{
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.fs-button:hover {
+background-color: #404bbf;}
+
+.fs-button:focus {
+    background-color: #404bbf;
+}
+
+
+
+
+
+
 
 
     
