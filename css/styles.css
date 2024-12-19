@@ -46,7 +46,7 @@ a.logo {
      background-color: #2e2f42;
      }
 
-.fs-h1 {
+.fshh {
     font: size 56px;
     line-height: 1.07;
     text-align: center;
@@ -70,7 +70,29 @@ background-color: #404bbf;}
 .fs-button:focus {
     background-color: #404bbf;
 }
+.li-h {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02;
+color: #2e2f42;
+}
 
+.li-p {
+line-height: 1.5;
+letter-spacing: 0.02em; 
+}
+.third-sec {
+    background-color:#f4f4fd ;
+}
+.ts-h {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
 
 
