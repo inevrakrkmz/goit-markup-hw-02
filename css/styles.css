@@ -109,9 +109,23 @@ letter-spacing: 0.02em;
     line-height:1.5;
     letter-spacing: 0.02em;
 }
+.our-port {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.footer { 
+    background-color: #2e2f42;
 
-
-
+}
+.footer-p {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
 
 
     
